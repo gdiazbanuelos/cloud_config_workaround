@@ -24,6 +24,8 @@ for /f "delims=" %%a in ('powershell.exe -command "$result=%STEAMID%-76561197960
 if %SteamAppId%==814380 (
             set "GAMECONFIGDIR=%APPDATA%\Sekiro"
             set "GAMECONFIG=GraphicsConfig.xml"
+            :: TODO add check if Sekiro mod is in install folder
+            :: start SekiroFpsUnlockAndMore_v1.2.5.2-13-1-2-5-2-1604415043.exe
 )
 if %SteamAppId%==292030 (
             set "GAMECONFIGDIR=%DOCUMENTS%\The Witcher 3"
